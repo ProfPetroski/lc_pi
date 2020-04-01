@@ -1,24 +1,20 @@
-# Python environment with a requirements.txt
+# Aulas práticas Processamento de Imagens
+- ## Curso: Licenciatura em Computação
+- ## Disciplina: Processamento de Imagens
+- ### Professor: Luiz Pedro Petroski
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/requirements/master)
+Este repositório é compatível com a ferramenta Jupyter Notebooks, e pode ser instalado em qualquer ambiente. Os requisitos estão no arquivo `requirements.txt`.
 
-A Binder-compatible repo with a `requirements.txt` file.
+Para rodar estes exemplos na plataforma Binder, clique no botão abaixo e aguarde a preparação do ambiente
 
-Access this Binder at the following URL 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ProfPetroski/lc_pi/master)
 
-http://mybinder.org/v2/gh/binder-examples/requirements/master
+ou acesse pelo seguinte link
 
-## Notes
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
+https://mybinder.org/v2/gh/ProfPetroski/lc_pi/master
 
-```
-pip install -r requirements.txt
-```
 
-The base Binder image contains no extra dependencies, so be as
-explicit as possible in defining the packages that you need. This includes
-specifying explict versions wherever possible.
-
-In this example we include the library `seaborn` which will be installed in
-the environment, and our notebook uses it to plot a figure.
+## Notas
+- Toda vez que você executar no na ferramenta Binder, será criado um ambiente interativo onde você poderá executar os códigos de exemplo e modificar, interagir, criar novos arquivos, fazer o upload de imagens, etc
+- O ambiente criado é temporário, ou seja, quando você sair, suas modificações serão perdidas
+- Ao acessar novamente o ambiente será criado como o professor deixou
